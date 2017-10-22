@@ -29,18 +29,18 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array
 }
 
-var newArray = [3, 2, 1]
+var newArray = [1, 2, 3]
 
 function accessElementInArray(array, index) {
-  return newArray[0]
+  return newArray[3]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray() {
-  return chocolateBars.shift
+  return newArray.shift
 }
 
 function removeElementFromBeginningOfArray() {
-  return chocolateBars.slice(1)
+  return newArray.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray() {
