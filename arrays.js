@@ -36,7 +36,7 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  newArray.shift(1)
+  newArray.shift()
   return newArray
 }
 
@@ -50,5 +50,5 @@ function destructivelyRemoveElementFromEndOfArray() {
 }
 
 function removeElementFromEndOfArray() {
-  return chocolateBars.slice(0, chocolateBars.length - 1)
+  return newArray.slice(0, newArray.length - 1)
 }
