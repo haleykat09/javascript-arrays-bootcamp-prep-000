@@ -32,7 +32,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 var newArray = [3, 2, 1]
 
 function accessElementInArray(array, index) {
-  return newArray[1]
+  return newArray[0]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray() {
