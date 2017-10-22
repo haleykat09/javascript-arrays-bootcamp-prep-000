@@ -9,12 +9,14 @@ var array = [
   1
 ]
 
+var element = "foo"
+
 function addElementToBeginningOfArray(array, element) {
-  return ['foo', ...array]
+  return [element, ...array]
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  array.unshift('foo')
+  return array.unshift(element)
 }
 
 function addElementToEndOfArray() {
