@@ -21,11 +21,11 @@ function addElementToEndOfArray() {
   return [...array, 'foo']
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToEndOfArray(array, element) {
   array.push('foo')
 }
 
-function accessElementInArray() {
+function accessElementInArray(array, index) {
   return array[1]
 }
 
