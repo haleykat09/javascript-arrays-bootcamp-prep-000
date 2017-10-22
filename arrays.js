@@ -22,7 +22,7 @@ function addElementToEndOfArray() {
 }
 
 function destructivelyAddElementToEndOfArray() {
-  return chocolateBars.push('pay day') + "foo"
+  array.push('foo')
 }
 
 function accessElementInArray() {
