@@ -35,17 +35,18 @@ function accessElementInArray(array, index) {
   return newArray[2]
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(newArray) {
+function destructivelyRemoveElementFromBeginningOfArray(array) {
   newArray.shift(1)
-  return
+  return newArray
 }
 
-function removeElementFromBeginningOfArray() {
+function removeElementFromBeginningOfArray(array) {
   return newArray.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray() {
-  return chocolateBars.pop()
+  newArray.pop()
+  return newArray
 }
 
 function removeElementFromEndOfArray() {
