@@ -10,10 +10,7 @@ var array = [
 ]
 
 function addElementToBeginningOfArray(array, element) {
-  var array = ["1"]
-  var element = 'foo'
-  array.unshift(element)
-  console.log(addElementToBeginningOfArray(array, element))
+  return ['foo', ...array]
 }
 
 function destructivelyAddElementToBeginningOfArray() {
