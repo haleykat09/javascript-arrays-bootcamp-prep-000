@@ -40,11 +40,11 @@ function destructivelyRemoveElementFromBeginningOfArray(newArray) {
   return newArray
 }
 
-function removeElementFromBeginningOfArray(array) {
+function removeElementFromBeginningOfArray(newArray) {
   return newArray.slice(1)
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(newArray) {
   newArray.pop()
   return newArray
 }
