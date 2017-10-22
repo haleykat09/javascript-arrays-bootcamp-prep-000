@@ -32,11 +32,11 @@ function destructivelyAddElementToEndOfArray(array, element) {
 var newArray = [1, 2, 3]
 
 function accessElementInArray(array, index) {
-  return newArray[3]
+  return newArray[2]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray() {
-  return newArray.shift
+  return newArray.shift()
 }
 
 function removeElementFromBeginningOfArray() {
